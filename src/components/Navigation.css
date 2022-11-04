@@ -1,0 +1,41 @@
+
+.nav {
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 128, 0, 0.3);
+    color: aliceblue;
+    
+}
+
+.navButtons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: rgb(117, 122, 136);
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.navButtons:hover{
+    opacity: 0.8;
+}
+
+.activeNavButton{
+    background-color: rgb(50, 50, 119);
+    font-weight: 600;
+}
+.logo {
+    height: 15px;
+    width: 200px;
+    margin-left: auto;
+    padding-right: 10px;
+}
